@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MyPortfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+         $(function() {	
+             $("#navbar").load("navBar.html");
+             $("#footer").load("footer.html");
+                              });
+    </script>
+    <link rel="stylesheet" href="../bootstrap/myStyle.css" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:300" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="navbar"></div>
+
+  <div  id="aboutmecont" class="container"> 
+
+  <h2>Hello guys!</h2>
+  
+
+  <ul class="nav nav-pills nav-justified">
+    <li class="active"><a data-toggle="pill" href="#me">Who am I ?</a></li>
+    <li><a data-toggle="pill" href="#bhandup">Where do I live ?</a></li>
+    <li><a data-toggle="pill" href="#education">Educational Qualifications</a></li>
+    <li><a data-toggle="pill" href="#keyskills">Key Skills</a></li>
+  </ul>
+  
+       <div class="tab-content" id="tabContent">
+            <div id="me" class="tab-pane fade in active row"> 
+                <div class="col-lg-offset-1 col-lg-6">
+                    <h3>Akshay Mehta</h3>
+                    <p>I am an Engineering graduate (fresher), pursued Electronics and Telecommunication Engineering from Ramrao Adik Institute of Technology,Nerul affiliated to the Mumbai University with a first class score.<br/> I love to code and in the quest to learn more in my entire academic career, I found my passion in web designing. I was responsible for the programming section of the curricular projects of the university.<br/>
+      In my final year, I worked as project trainee of the internship program offered by BARC,MUMBAI a premier research institute of India.</p>
+                </div>
+                <img src="../img/akshay.png" class="img-responsive col-lg-3" alt="akshay">
+        </div>  
+        <div id="bhandup" class="tab-pane fade">
+            <div class="col-lg-offset-1 col-lg-6">
+                <h3>Bhandup, Mumbai, India</h3>
+                <p>It is a suburb in the central line, 53 minutes away from CSTM (by train).</p>
+            </div>
+            <a href="https://www.google.co.in/maps/place/Bhandup,+Valmik+Nagar,+Bhandup+West,+Mumbai,+Maharashtra+400078/@19.1462692,72.9325037,14.66z/data=!4m5!3m4!1s0x3be7b86e528cb077:0xc32fa3a95817256d!8m2!3d19.1465225!4d72.9305026" ><img src="../img/bhandup.png" class="img-responsive col-lg-3" alt="bhandup"></a>
+        </div>
+    
+        <div id="education" class="tab-pane fade">
+            <div class="col-lg-offset-2 col-lg-8">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="graduation"><h4>Graduation:</h4></label>
+
+                            <div class="col-sm-8">
+                                <p class="form-control-static">Bachelor of Engineering in Electronics and Telecommunication from Ramrao Adik Institute of Technology,Nerul affiliated to Mumbai Univesity</p>
+                                <p>Year of Passing: May, 2017</p> 
+                                <p>CGPA: 7.40/10</p>
+                           </div>
+                    </div>  
+                </form>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="graduation"><h4>Higher Secondary Education:</h4></label>
+                            <div class="col-sm-8">
+                                <p class="form-control-static">Pursued from NES Ratnam Junior College of Science, Mumbai</p>
+                                <p>Year of Passing: April, 2013</p>
+                                <p>Percentage: 75.55%</p>
+                            </div>
+                    </div>
+                </form>         
+         </div>  
+     </div>
+        <div id="keyskills" class="tab-pane fade">
+            <div class="col-lg-offset-2 col-lg-8">
+                <form class="form-horizontal">
+                    <div class="form-group">                  
+                        <label class="control-label col-sm-5" for="skills"><h4>Programming languages:</h4></label>
+                            <div class="col-sm-5">
+                                <p class="form-control-static">Java, Javascript, C, Python</p> 
+                            </div>
+                    </div>
+                </form>
+                <form class="form-horizontal">
+                    <div class="form-group">                  
+                        <label class="control-label col-sm-5" for="skills"><h4>Web technologies:</h4></label>
+                            <div class="col-sm-5">
+                                <p class="form-control-static">HTML5, CSS3</p> 
+                            </div>
+                    </div>
+                </form>
+                <form class="form-horizontal">
+                    <div class="form-group">          
+                        <label class="control-label col-sm-5" for="skills"><h4>Front end frameworks:</h4></label> 
+                            <div class="col-sm-5">
+                                <p> Bootstrap, jQuery</p>
+                            </div>
+                     </div>  
+                </form> 
+                <form class="form-horizontal">
+                    <div class="form-group">          
+                        <label class="control-label col-sm-5" for="skills"><h4>Other:</h4></label> 
+                            <div class="col-sm-5">                         
+                                <p>1. Responsive Design</p>
+                                <p>2. Mobile friendly Design</p>
+                                <p>3. Cross Browser Development</p>
+                                <p>4. Problem Solving Skills</p>                             
+                            </div>
+                    </div>  
+                </form> 
+        </div>
+  </div>
+</div>
+</div>
+</body>
+    <div id="footer"></div>
+    <script type="text/javascript" src="../js/aboutme.js"></script>
+    
+
+</html>
